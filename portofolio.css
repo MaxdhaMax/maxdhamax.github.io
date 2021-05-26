@@ -1,6 +1,14 @@
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  height: 100vh;
+  position: relative;
+}
+
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #projects {
@@ -9,5 +17,16 @@
 
 section {
   padding-top: 5rem;
+}
+
+/* media query */
+@media (max-width:576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: gray !important;
+  }
 }
 /*# sourceMappingURL=portofolio.css.map */
