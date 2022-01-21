@@ -487,7 +487,7 @@ nav {
 }
 
 .skills__kotlin {
-  width: 10%;
+  width: 30%;
 }
 
 .skills__java {
@@ -733,7 +733,7 @@ nav {
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet{
-  outline: none;
+  /* outline: none; */
 }
 /*==================== PROJECT IN MIND ====================*/
 
